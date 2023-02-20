@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            What's your story
+        </title>
+        <link rel="stylesheet" href="sharestory.css"></link>
+    </head>
+    <body>
+        <script>
+
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+        
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            
+        </script>
+                 
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="sharestory.html" target="blank_">Share your story</a>
+        <a href="spotify.html" target="blank_">Curated playlists</a>
+        <a href="feedback_form.html" target="blank_">Feedback</a>
+      </div>
+      <div class="container">
+        <ul>
+        <li><a href="main.html">Home</a></li>
+          <li><a href="login.html">Login </a></li>
+          <li><a href="#aboutus">About the website</a></li>
+          <li><a href="#contact">Contact us</a></li>
+         </ul>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      <br>
+      <br>
+        <center>
+        <p id="one">If the internet has 
+            taught us one thing, it’s that everyone has a story – and we love to share them<br/> W H A T 'S &nbsp; Y O U R &nbsp; S T O R Y
+        <div id="two">
+            <p>Stories have always been a big part of society and relationships,we believe in giving young minds a place to share their stories, bringing people together</p>
+            <p>
+                So why don't we tell the other wonderful humans who are going to read this, about your story, your healing, to tell them they're not in this alone
+
+            </p>
+            <p>
+                Tell us about your journey down below,oh and feel free to expand the box to your requirements,we're eager to know :)
+            </p>
+            <form action="/sharestory" method="post">
+            <textarea row=1000 column=1000 id="story" value="story" name="story" >Write your Story</textarea><br/>
+            <br>
+            <button id="reset" type="reset" onclick="window.location.href='main.html'" >Submit</button>
+            <button id="reset" type="reset" onclick="window.location.href='sharestory.html'">Reset</button>
+            </form>
+            <p>
+                P.S. Don't worry stay anonymous or reveal yourself we never store or share any of your details except the story you've gievn us
+            </p>
+            
+        </div>
+        
+    </body>
+</html>

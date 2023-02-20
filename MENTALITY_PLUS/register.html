@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <title>
+            Registration 
+        </title> 
+        <video id="myVideo1" autoplay loop muted>
+			<source src="reg_video.mp4" type="video/mp4" />
+		</video>
+        
+    </head>
+    <body>
+		
+        <div>
+        <p id="pagetitle">MENTALITY PLUS</p>
+        <p id="intro1">
+            Welcome to MENTALITY-PLUS.
+
+        </br> 
+        We're glad to see you here! Our website aims at creating awareness and banishing taboos around mental health 
+     </br> 
+     Login to enjoy our website even better. Happy healing! 
+     </p>
+        </div>
+       
+    <div id="login">
+       
+        <form action="/reg_success" method="post"> 
+        </br></br>
+        <h1 id="form__title">SIGN UP:</h1></br></br>
+        <input type="text" id="log" autofocus name="name" required placeholder="Username"></input></br></br>
+        <input type="password" class="log" name="password" required id="pass" placeholder="Enter password"></input></br></br>
+        <input type="email" id="email" required name="email" placeholder="Enter email"></input></br></br>
+        <button id="reset" type="reset" onclick="window.location.href='login.html'" >Submit</button>
+        <button id="reset" type="reset" onclick="window.location.href='main.html'">Reset</button>
+        </form>
+    </div>
+
+</body>
+</html>

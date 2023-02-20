@@ -1,0 +1,110 @@
+body
+{
+    
+    background-size: 100%;
+}   
+#title{
+    background: linear-gradient(90deg,#755bea,#55e7fc);
+    height:100px;
+    padding-top: 35px;
+    margin-top: -20px;
+}
+form{
+    background: linear-gradient(rgb(189, 186, 94),orange); 
+    width:600px;
+    height:500px;
+ 
+    border-radius: 25px;
+    
+}
+
+#myVideo1{
+        position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		z-index:-2;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    float:left
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: lightblue;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+    
+ 
+ 
+    
+  ul {
+    list-style-type: none;
+    margin: 0;
+    top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-size: 30px;
+    color: red;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    top: 51px;
+    margin: auto;
+    text-align: center;
+
+  }
+  
+  button{
+    color:black;
+      text-decoration: none;
+      padding: 4px 8px;
+      border-radius: 20%;
+      font-size: 16px;
+      background-color: #0de989;
+  }

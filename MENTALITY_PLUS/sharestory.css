@@ -1,0 +1,110 @@
+p{
+    color: rgba(7, 10, 10, 0.973);
+    font-size: 150%;
+}
+body{
+    background: linear-gradient(90deg,#019ebd,#3105f2);
+}
+textarea{
+    width:600px;
+    height: 200px;
+}
+#one
+{
+    color:black;font-size:220%;
+    text-align: center;
+    background: linear-gradient(90deg,#755bea,#55e7fc);
+    margin-top: -10px;
+
+
+}
+
+#two
+{
+    border-color: black;border-width: 30%;
+}
+#main{
+    text-decoration: none;
+    padding:10px;
+    color:white;
+    border:1px solid black;
+    border-radius:20px;
+    background:linear-gradient(90deg,rgb(28, 135, 197),rgb(30, 4, 138),purple);
+}
+#submit,#reset
+{
+    color:white;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 20%;
+    font-size: 16px;
+    background:linear-gradient(90deg,rgb(28, 135, 197),rgb(30, 4, 138),purple);
+    
+}
+#h1{
+background:linear-gradient(90deg,rgb(28, 135, 197),rgb(30, 4, 138),purple);
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    float:left
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: lightblue;
+    display: block;
+    transition:0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+   
+
+ 
+ 
+     ul {
+        list-style-type: none;
+        margin: 0;
+        top: 10px;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkblue;
+      }
+    
+      li {
+        float: left;
+      }
+    
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      a:hover {
+        font-size: 30px;
+        color: red;
+      }
+     

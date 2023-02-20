@@ -1,0 +1,86 @@
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="feedback.css">
+    <script src="feedback.js"></script>
+<title>Feedback</title>
+
+	<video id="myVideo1" autoplay loop muted>
+			<source src="vd.mp4" type="video/mp4" />
+	</video>
+  </head>
+  <body>
+    <script>
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+  
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="sharestory.html" target="blank_">Share your story</a>
+    <a href="spotify.html" target="blank_">Curated playlists</a>
+    <a href="feedback_form.html" target="blank_">Feedback</a>
+  </div>
+  <div class="container">
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a href="login.html">Login </a></li>
+      <li><a href="#aboutus">About the website</a></li>
+      <li><a href="#contact">Contact us</a></li>
+     </ul>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <h1 id="title">We want to hear from you...</h1>
+
+    <div id="root"></div>
+<center>
+      <form  method="/formsubmit" action="post">
+        <label><br/>
+          First Name:
+          <input type="text" name="fname"  />
+        </label>
+	<label>
+          Last Name:
+          <input type="text" name="lname" /><br/><br/>
+        </label>
+	<label>
+          Place:
+          <input type="text" name="place"  /><br/><br/>
+	</label>
+	<label>
+          Age:
+          <input type="text" name="age"  /><br/><br/>
+        </label>
+	<label>
+          Was this helpful? If so which part of it was most helpful?
+          <input type="textarea" name="help" /><br/><br/>
+        </label>
+	<label>
+          What kind of issue did it help you with?
+   <br>       
+	<input type="checkbox" name="issue2" />Peer presure <br/>
+	<input type="checkbox" name="issue3" />Depression<br/>
+	<input type="checkbox" name="issue4" />Anxiety<br/>
+	<input type="checkbox" name="issue5" />Suicidal thoughts<br/>
+	<input type="checkbox" name="issue6"  />Parental pressure<br/>
+	<input type="checkbox" name="issue7"  />General stress<br/><br/>
+	</label>
+	<label>
+          What can we improve on?
+          <input type="textarea" name="improve"  /><br/>
+        </label>
+        <br>
+        <br>
+        <button type="reset" value="reset" onclick="window.location.href='main.html'" >Submit</button>
+      </form>
+    </center>
+
+</body>
+</html>

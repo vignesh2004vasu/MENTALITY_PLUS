@@ -1,0 +1,255 @@
+*
+{
+  color:white;
+  margin:0;
+  padding:0;
+}
+body
+{
+  background: linear-gradient(90deg,#755bea,#55e7fc);
+  
+}
+    /* ABOUT US IMAGES */
+    .flex-containerimg {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(6, 35, 59);
+    }
+
+    .flex-containerimg>div {
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+      line-height: 22px;
+      font-size: 30px;
+    }
+
+    h3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      font-size: 30px;
+    }
+
+    h1#h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      font-size: 40px;
+
+    }
+
+    #p1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:white;
+      font-size: 25px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+       height: 188px;
+    }
+
+    .flex-container>div {
+      /* background-color: black; */
+      /* border: 2px solid black; */
+      width: 300px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      background-color: lightskyblue;
+    }
+
+    
+
+    body {
+      font-family: "lato", sans-serif;
+      height: 2000px;
+      
+
+   
+      /* background-size: auto; */
+      /* background-size: cover; */
+
+    }
+
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: blue;
+      overflow-x: hidden;
+      transition: 1s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      float:left
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: lightblue;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    .container {
+      
+      top: -1045px;
+
+    }
+
+    /* HORIZONTAL NAVBAR */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      top: 10px;
+      padding: 0;
+      overflow: hidden;
+      background-color: darkblue;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      font-size: 30px;
+      color: red;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      top: 51px;
+      margin: auto;
+      text-align: center;
+
+    }
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position:relative;
+      top: 50%;
+      width:1px;
+      padding: 16px;
+      margin-top: -25px;
+      color: rgb(5, 1, 1);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right:0;
+      border-radius: 3px 0 0 1px;
+    }
+
+   
+    
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 5px;
+      width: 5px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius:10%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+   
+
+    .aboutus {
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: blue; }
+
+    h1 {
+      color: darkblue;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      text-align: center;
+    }
+    h3
+    {
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      height: 100px;
+      text-align: center;
+      font-size: ;
+    }
+    
+    footer p {
+      margin: 0;
+      font-size:x-large;
+    }
+    

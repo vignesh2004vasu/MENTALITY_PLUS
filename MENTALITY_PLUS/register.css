@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+#myVideo1{
+        position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		z-index:-2;
+}
+
+
+
+
+
+#pagetitle{
+	text-align:center;
+    left:150px;
+    margin-top: 100px;
+    color:white;
+    font-size: 40px;
+}
+#intro1{
+	text-align:center;
+    left:400px;
+    top : 55px;
+    color:white;
+    font-size: 17px;
+}
+#login{
+    position: relative;
+    top:10px;
+    
+    left: 460px;
+    height: 380px;
+    width: 335px;
+}
+#para
+{
+    text-align: top;
+    position: relative;
+    font-size:small;
+}
+
+#login{
+    border: "2px";
+    border-color: white;
+    margin-left: 200px;
+}
+#form__title{
+	text-align:left;
+    left: 40px;
+    top : 20px;
+    color:white;
+}
+#log,#pass,#email{
+    position: relative;
+    top : 5px;
+    padding: 12px 20px;
+}
+#buttons
+{
+    position: relative;
+    top:100px;
+    height:16px;
+    left: 20;
+}
+#submit,#reset{
+    padding: 4px 8px;
+    border-radius: 20%;
+    font-size: 16px;
+    background-color: #0de989;
+    color:rgb(17, 15, 15);
+    
+
+}
+.logo{
+    position:fixed;
+    display: inline;
+    top:58px;
+    left:29px;
+	width:6%
+}
+
+.link{
+	color:white;
+}
+
+.link1{
+	color:black;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 20%;
+    border:2px solid black;
+    font-size: 16px;
+    background-color: #0de989;
+
+}
