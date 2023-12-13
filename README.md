@@ -1,2 +1,2 @@
 # MENTALITY_PLUS
-This is my website for mental health
+This is my first year project on mental health
